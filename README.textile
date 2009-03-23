@@ -1,0 +1,29 @@
+h1. Wellsfargo Statement Converter
+
+Welcome to the extremely long tail of financial applications.
+
+This is just a really crude script I created because I had to import data from my Wellsfargo Business accounts. 
+
+This is unflexible and bare with no comments or anything. However in case you know enough Ruby to make it fit your situation and you are in the same situation where you have to convert wellsfargo statement pdf's to csv it might just help get you started.
+
+I'm using this on business account statements, I have no idea if it will work elsewhere.
+
+h3. Requirements
+
+The only requirement is the excellent "pdf-reader":http://github.com/yob/pdf-reader/tree/master gem. 
+
+h3. Instructions
+
+* Create a directory called "statements"
+* Copy your pdf statements that you've downloaded from the WF web site into this "statements" directory
+* Run "parse_statements"
+
+It does basic checking to see if it imported things properly. If it messed up on a line it should alert you and you can try messing around with the regexes to fix it.
+
+h3. Need help?
+
+One last thing I am not planning on supporting this in any way. Feel free to fork it and work on it though.
+
+h3. About me
+
+Check my blog "StakeVentures":http://stakeventures.com and my startup "Agree2":http://agree2.com.
