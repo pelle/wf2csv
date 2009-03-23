@@ -6,7 +6,7 @@ class Statement
   MONTHS="(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
   DAY="[0123]\\d"
   DATE="(#{MONTHS}\s+#{DAY})"
-  AMOUNT="\s((- )?(\\d{1,3},)?\\d{1,3}\\.\\d{2}) "
+  AMOUNT="((- )?(\\d{1,3},)?\\d{1,3}\\.\\d{2}) "
   
 #  AMOUNT="\s{5}((- )?[0123456789,]+\.[0123456789]{2})"
   
